@@ -1,0 +1,19 @@
+{
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "wailer-extension@https://github.com/sprugit/wail-manager"
+    }
+  },
+  "manifest_version": 1,
+  "name": "wailer-extension",
+  "version": "0.1",
+  "description": "Browser extension for the wailer password-manager.",
+  "icons": {
+    "48": "icons/48.png"
+  },
+  "content_scripts": [
+    {
+      "js": ["scripts/extension.js"]
+    }
+  ]
+}

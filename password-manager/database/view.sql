@@ -1,0 +1,1 @@
+CREATE IF NOT EXISTS VIEW SEAL AS SELECT account||'@'||domain AS Identifier,password AS Password FROM NODE;
